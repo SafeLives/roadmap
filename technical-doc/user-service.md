@@ -19,3 +19,20 @@ Main steps:
 - apply right permissions to each routes
 - send validation email to new created user
 - Create UI, html, css
+
+# Login
+
+- Create UI for login page
+  - email and password fields with submit button
+  - Add Joi validation on the payload submitted
+    - email field contain a email?
+    - password field contains minimum length?
+  - add error html placeholder (span with specific css class)
+    - **The error message shouldn't give any information on what went wrong during the login process**: "The email doesn't exists", "The password is not the right one for bob@gmail.com"...
+    - Instead just say the login didn't work: "Sorry the email or passwor is incorrect"
+  - Add "forge password?" link
+
+
+- Create UI for "forget password" page
+  - email field
+  - Joi validation on email field
