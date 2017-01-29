@@ -43,7 +43,7 @@ The application needs to provide a user and services management system.
 
 The user and service management system is a simple CRUD (Create, Ready, Update, Delete) system.
 
-Some maain features are:
+Some main features are:
 
 As a Safe Life admin:
 
@@ -57,4 +57,4 @@ As a Safe Life admin:
 
 As a user:
 
-- I can login to the application to access the main feature (see other part of the documenation)
+- I can login to the application to access the main feature (see other part of the documentation)

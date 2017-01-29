@@ -5,9 +5,9 @@
 An analysis table is a collection of answers from a specific question of a form.
 The answers are aggregated or analysed (average, median, sum...) then represented by specific graphs.
 
-The main goal of the analysis table feature is to allow an Safe Lives Admin to extract and create quickly the representation of the anwsers.
+The main goal of the analysis table feature is to allow a Safe Lives Admin to extract and quickly create a visual representation of the answers.
 
-The current way of creating the analysis table (with Snap) is to export in csv. Then Excel is used to filter and process the results. The goal of the new analysis tables process is to simplify and include the data processing into the application without having to export the data in csv.
+The current way of creating the analysis tables (with Snap) is to export in csv. Then Excel is used to filter and process the results. The goal of the new analysis tables process is to simplify and include the data processing into the application without having to export the data in csv.
 
 ## Features
 
@@ -15,18 +15,18 @@ As a Safe Lives Admin:
 
 ### Browse existing analysis tables
 
-- I can see the list of the graph representation of the existing analysis tables
-- I can filter run the analysis table on a specific timeline
-- I can filter the analysis table
+- I can see predetermined graph representations of the existing analysis tables
+- I can filter the analysis tables for a specific timeline
+- I can filter the analysis tables
 
 ### Create new analysis tables
 
 ![new analysis table](../img/analysis-create.png)
 
-- I can edit an existing analysis table By searching by categories/tags linked to the analysis table
+- I can edit an existing analysis table by searching by categories/tags linked to the analysis table
 - I can create a new analysis table:
 
-#### Main strucutre of a table
+#### Main structure of a table
 
 - the aggregate value for each answer of the question (ex: location)
 or

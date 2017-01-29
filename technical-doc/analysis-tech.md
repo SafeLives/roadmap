@@ -1,17 +1,17 @@
 # Analysis
 
 The analysis of the data needs to be flexible and easy to change. Creating from scratch an analysis tool is quiet complicated has the tool needs to be abstract enough to not block the user. For this reason it makes sense to delegate the analysis to other tools.
-One idea is to create an Elasticsearch database which map the Postgress database so user can quickly search and extract the data and use [Kibana](https://www.elastic.co/products/kibana) to build analysis.
+One idea is to create an Elasticsearch database which map the Postgres database so user can quickly search and extract the data and use [Kibana](https://www.elastic.co/products/kibana) to build analysis.
 
 A better and quicker solution is to use [Redash](https://redash.io). Redash can automatically extract the data from Postgress and can be used to quickly build relatively complex queries.
 
-An itermediate solution is to have the main analysis tables "hard coded" in the application, this will allow users to quickly access to some popular and often used analysis but they won't be able to modify them.
+An intermediate solution is to have the main analysis tables "hard coded" in the application, this will allow users to quickly access to some popular and often used analysis but they won't be able to modify them.
 
 ## Estimations:
 
 ### Hard coded analysis 10 days + 1/2 day per query
 
-We can integrate specific queries and graphs into the app but these queries won't be customable.
+We can integrate specific queries and graphs into the app but these queries won't be customisable.
 
 Main steps
 
@@ -44,4 +44,4 @@ Main steps:
 
 ![redash prices](../img/redash-prices.png)
 
- Redash automatically share the queries with other users of an organisation.
+ Redash automatically shares the queries with other users of an organisation.
