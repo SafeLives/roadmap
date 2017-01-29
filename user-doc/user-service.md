@@ -58,9 +58,3 @@ As a Safe Life admin:
 As a user:
 
 - I can login to the application to access the main feature (see other part of the documenation)
-
-
-
-
-
-

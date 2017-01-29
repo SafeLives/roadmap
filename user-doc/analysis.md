@@ -1,6 +1,6 @@
 # Analysis tables
 
-![analysis](../../img/analysis.png)
+![analysis](../img/analysis.png)
 
 An analysis table is a collection of answers from a specific question of a form.
 The answers are aggregated or analysed (average, median, sum...) then represented by specific graphs.
@@ -21,7 +21,7 @@ As a Safe Lives Admin:
 
 ### Create new analysis tables
 
-![new analysis table](../../img/analysis-create.png)
+![new analysis table](../img/analysis-create.png)
 
 - I can edit an existing analysis table By searching by categories/tags linked to the analysis table
 - I can create a new analysis table:
@@ -41,7 +41,7 @@ The structure of the table can be extended by adding different type of column
 - compare by services
 - ...
 
-![analysis table type](../../img/analysis-table-type.png)
+![analysis table type](../img/analysis-table-type.png)
 
 #### Filter data of a table
 
@@ -59,6 +59,6 @@ It is possible to create a specific table based on a calculated values, the aver
 
 The analysis table are build on a main structure (value, percentage, compare by year) however this structure needs to be easily extended and more complicated analysis need to be added to the tables. Currrently the wireframes descibed the basic structure of a table but managing all the complexity and cases of the analysis tables will be difficult inside the application. Building a whole analysis system could be time consuming (months of development) and not very effecient. For that we recommend to use some specific tools (https://redash.io/get-started/ or https://www.elastic.co/products/kibana, see also a this list of tools https://blog.blendo.co/the-ultimate-list-of-custom-dashboards-and-bi-tools-to-track-your-metrics-and-gather-insights/) which can be easily integrated with the new database.
 
-![analysis table type](../../img/redash-preview.png)
+![analysis table type](../img/redash-preview.png)
 
 The application can however provide some predefine graphs and analysis tables. This can be some relatively easy queries that are used often by Safe lives and the other services (http://www.chartjs.org/, https://d3js.org/).

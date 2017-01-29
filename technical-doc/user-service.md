@@ -79,4 +79,3 @@ Only a Safe Lives Admin can create a service. A Service Manager would then be ab
 # Create new role and dataset
 
 a Safe Lives Admin and a Service Manager can create new type of role. Each new type must be linked to specific permissions.
-

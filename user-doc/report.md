@@ -2,7 +2,7 @@
 
 A report is a group of analysis tables with descriptions and text explanation attached to them. A Safe Lives Admin needs to be able to update and send reports to specific services and other user. For that the reports needs to update the analysis tables automatically depending of a specific timeline and filters (services, roles,...)
 
-![reports](../../img/reports.png)
+![reports](../img/reports.png)
 
 ## Main features:
 

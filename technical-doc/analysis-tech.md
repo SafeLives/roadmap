@@ -42,11 +42,6 @@ Main steps:
  - Create a Redash account
  - Create sql tutorial to explain how to extract data and create graph - 2 days (could we create dwyl youtube tutorial?)
 
-![redash prices](../../img/redash-prices.png)
+![redash prices](../img/redash-prices.png)
 
  Redash automatically share the queries with other users of an organisation.
-
-
-
-
-
