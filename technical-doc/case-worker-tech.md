@@ -1,6 +1,6 @@
 # Case Worker - 5 days
 
-This part of the appication is directly linked to the "form manaemnet system". Once a specific form is defined, the structure of the form is saved in Postgres. Each time a case worker insert data for a specific form, the strucutre of the form is loaded from Postgres and automatically converted to HTML. Then the Case worker only has to save and submit the data which will be saved in Postgres.
+This part of the application is directly linked to the "form management system". Once a specific form is defined, the structure of the form is saved in Postgres. Each time a case worker insert data for a specific form, the structure of the form is loaded from Postgres and automatically converted to HTML. Then the Case worker only has to save and submit the data which will be saved in Postgres.
 
 see how to work with encryption (https://www.postgresql.org/docs/8.1/static/encryption-options.html) to keep the data linked to clients secure
 

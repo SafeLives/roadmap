@@ -1,5 +1,4 @@
 # Form management system
+Improving the current way forms are managed and used by Safe Lives Admins and Case Workers is one of the main goals of the application.
 
-Improving the current way form are managed and used by Safe lives Admin and Case Worker is one of the main goal of the application.
-
- ![forms](../../img/forms.png)
+ ![forms](../img/forms.png)
